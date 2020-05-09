@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://pcysanji.github.io</id>
+    <title>320印象 | 静海流沙的呜啦啦嘿</title>
+    <updated>2020-05-09T13:22:48.688Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://pcysanji.github.io"/>
+    <link rel="self" href="https://pcysanji.github.io/atom.xml"/>
+    <subtitle>我醒来是在月球上</subtitle>
+    <logo>https://pcysanji.github.io/images/avatar.png</logo>
+    <icon>https://pcysanji.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, 320印象 | 静海流沙的呜啦啦嘿</rights>
+    <entry>
+        <title type="html"><![CDATA[「WIN」油管下载器_FreeYouTubeDownload]]></title>
+        <id>https://pcysanji.github.io/post/freeyoutubedownload/</id>
+        <link href="https://pcysanji.github.io/post/freeyoutubedownload/">
+        </link>
+        <updated>2019-07-24T14:26:04.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>Hey，你好哇。<br>
+影视剪辑 | AE | Pr | 电脑技术 | 摄影摄像 | 电影 | 电视剧 | 二次元</p>
+</blockquote>
+<hr>
+<h2 id="剪辑交流群685624383">剪辑交流群：685624383</h2>
+<p>320印象工作室：<a href="https://320studio.xyz">https://320studio.xyz</a><br>
+柚子一画廊：<a href="https://uziyi.cn">https://uziyi.cn</a></p>
+<figure data-type="image" tabindex="1"><img src="https://320studio-1259031348.cos.ap-guangzhou.myqcloud.com/2019/07/11/Free%20YouTube%20Download%202.png" alt="" loading="lazy"></figure>
+<h2 id="个人说明">个人说明</h2>
+<p>这款油管下载器是为数不多的支持列表下载、批量下载的工具。</p>
+<ul>
+<li>界面简洁，操作简单并带有自带教程。</li>
+<li>有中文虽然是机翻。</li>
+<li>整体使用很舒服，很方便，油管下载，有它就够了。</li>
+</ul>
+<h2 id="官网介绍">官网介绍</h2>
+<blockquote>
+<p>Free YouTube Download是目前最受欢迎的YouTube下载应用程序，于2006年发布并定期更新。,它可让您下载和转换YouTube视频，以便随时观看。</p>
+</blockquote>
+<figure data-type="image" tabindex="2"><img src="https://320studio-1259031348.cos.ap-guangzhou.myqcloud.com/2019/07/11/Free%20YouTube%20Download%203.png" alt="" loading="lazy"></figure>
+<h3 id="功能">功能</h3>
+<ul>
+<li>可以任何格式获取YouTube流，可选择MP4，最高8K UHD 的MKV，WEBM和MP3</li>
+<li>可执行转换为MP4，AVI和MP3</li>
+<li>可应用输出名称格式模式</li>
+<li>可打开任何文本文件的链接列表</li>
+<li>可自动将视频传输到iTunes并将其转换为iPhone / iPad / iPod</li>
+<li>可下载字幕</li>
+</ul>
+<figure data-type="image" tabindex="3"><img src="https://www.dvdvideosoft.com/img2/screenshots/FreeYouTubeDownload/ytdfeature4.png" alt="" loading="lazy"></figure>
+<h2 id="下载地址">下载地址</h2>
+<blockquote>
+<p>开发人员：dvdvideosoft<br>
+语言：多语言（机翻中文）<br>
+提供版本：安装包+破解补丁</p>
+</blockquote>
+<p><a href="https://www.lanzous.com/b571258">蓝奏云下载：https://www.lanzous.com/b571258</a></p>
+<p><br/><br/></p>
+<blockquote>
+<p>Hey，你好哇。影视剪辑 | AE | Pr | 电脑技术 | 摄影摄像 | 电影 | 电视剧 | 二次元</p>
+<p>我们下次见</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「WIN」music-dl_网络音乐下载]]></title>
+        <id>https://pcysanji.github.io/post/music-dl/</id>
+        <link href="https://pcysanji.github.io/post/music-dl/">
+        </link>
+        <updated>2019-07-12T15:30:24.000Z</updated>
+        <content type="html"><![CDATA[<p><code>原项目地址：https://github.com/0xHJK/music-dl</code></p>
+<pre><code>我在此基础上写了一个Bat，方便小白使用。其实这个命令没有那么复杂，简单看一下使用说明也可以自己输。  
+</code></pre>
+<figure data-type="image" tabindex="1"><img src="https://320studio-1259031348.cos.ap-guangzhou.myqcloud.com/2019/07/12/preview.png" alt="" loading="lazy"></figure>
+<h2 id="原版用户指南">原版用户指南</h2>
+<p>Usage: music-dl [OPTIONS]</p>
+<pre><code>  搜索并下载音乐，支持网易云、QQ、百度、虾米
+  例子： music-dl -k &quot;周杰伦&quot;
+</code></pre>
+<blockquote>
+<p>Options:<br>
+--version            Show the version and exit.<br>
+-k, --keyword TEXT   搜索关键字<br>
+-s, --source TEXT    支持的数据源: qq netease kugou baidu xiami flac<br>
+-c, --count INTEGER  搜索数量限制<br>
+-o, --outdir TEXT    指定输出目录<br>
+-x, --proxy TEXT     指定代理（如http://127.0.0.1:1087）<br>
+-m, --merge          对搜索结果去重和排序（默认去重）<br>
+-v, --verbose        详细模式<br>
+-l, --lyrics         同时下载歌词<br>
+-p, --picture        同时下载封面<br>
+--help               Show this message and exit.</p>
+<ul>
+<li>默认搜索<code>qq netease kugou baidu xiami flac</code>，每个数量限制为5，保存目录为当前目录。</li>
+<li>指定序号时可以使用<code>1-5 7 10</code>的形式。</li>
+<li>默认对搜索结果排序和去重，排序顺序按照歌手和歌名排序，当两者都相同时保留最大的文件。</li>
+<li>无损音乐歌曲数量较少，如果没有无损会显示320K或128K。</li>
+<li>支持http代理和socks代理，格式形如<code>-x http://127.0.0.1:1087</code>或<code>-x socks5://127.0.0.1:1086</code></li>
+</ul>
+</blockquote>
+<h2 id="本版bat使用指南">本版BAT使用指南</h2>
+<pre><code>感觉没啥难度，用就行了。
+</code></pre>
+<ul>
+<li>关键词搜索支持歌手和歌名。</li>
+<li>音乐ID就是后面那串数字，比如网易云https://music.163.com/#/song?id=40915694，ID就是40915694。<br>
+使用 2 音乐ID下载时，输入40915694即可</li>
+</ul>
+<p><strong>下载完后，文件在“Download”文件夹下，同时有歌词、封面和歌曲。</strong></p>
+<figure data-type="image" tabindex="2"><img src="https://320studio-1259031348.cos.ap-guangzhou.myqcloud.com/2019/07/12/music-dl-preview.gif" alt="下载演示" loading="lazy"></figure>
+<h2 id="支持的音乐源列表">支持的音乐源列表</h2>
+<table>
+<thead>
+<tr>
+<th>音乐源</th>
+<th>缩写</th>
+<th>网址</th>
+<th>音乐</th>
+<th>封面</th>
+<th>歌词</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>QQ音乐</td>
+<td>qq</td>
+<td><a href="https://y.qq.com/">https://y.qq.com/</a></td>
+<td>✓</td>
+<td>✕</td>
+<td>✕</td>
+</tr>
+<tr>
+<td>酷狗音乐</td>
+<td>kugou</td>
+<td><a href="http://www.kugou.com/">http://www.kugou.com/</a></td>
+<td>✓</td>
+<td>✓</td>
+<td>✕</td>
+</tr>
+<tr>
+<td>网易云音乐</td>
+<td>netease</td>
+<td><a href="https://music.163.com/">https://music.163.com/</a></td>
+<td>✓</td>
+<td>✓</td>
+<td>✕</td>
+</tr>
+<tr>
+<td>百度音乐</td>
+<td>baidu</td>
+<td><a href="http://music.baidu.com/">http://music.baidu.com/</a></td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>虾米音乐</td>
+<td>xiami</td>
+<td><a href="https://www.xiami.com/">https://www.xiami.com/</a></td>
+<td>✕</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>百度无损音乐</td>
+<td>flac</td>
+<td><a href="http://music.baidu.com/">http://music.baidu.com/</a></td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+</tr>
+</tbody>
+</table>
+<h2 id="下载地址">下载地址</h2>
+<p><a href="https://www.lanzous.com/b832249/">https://www.lanzous.com/b832249/ </a><br>
+密码:eojc</p>
+<p><br/><br/><br/></p>
+<blockquote>
+<p>Hey，你好哇。影视剪辑 | AE | Pr | 电脑技术 | 摄影摄像 | 电影 | 电视剧 | 二次元</p>
+<p>我们下次见</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[桌面级CPU(处理器)和GPU(显卡)天梯图]]></title>
+        <id>https://pcysanji.github.io/post/CPUGPU/</id>
+        <link href="https://pcysanji.github.io/post/CPUGPU/">
+        </link>
+        <updated>2019-07-11T14:48:17.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="20190711-新增天梯图查看网站-来源驱动之家">20190711 新增天梯图查看网站-来源驱动之家</h3>
+<ul>
+<li>
+<p><strong>桌面CPU性能天梯图</strong><br>
+<a href="https://www.mydrivers.com/zhuanti/tianti/cpu/index.html">https://www.mydrivers.com/zhuanti/tianti/cpu/index.html</a></p>
+</li>
+<li>
+<p><strong>桌面显卡性能天梯图</strong><br>
+<a href="https://www.mydrivers.com/zhuanti/tianti/gpu/index.html">https://www.mydrivers.com/zhuanti/tianti/gpu/index.html</a></p>
+</li>
+</ul>
+<br/>
+<blockquote>
+<p>最近在了解电脑硬件相关的东西，天梯图能够直观地为我们展示硬件的性能。然而网络上直接搜索天梯图，很难找到最新的版本。<br>
+所幸的是，AMD贴吧的大神@秋刀鱼半藏一直在更新CPU和GPU的天梯图，从13年到19也至少有6年了。他做的图直观清晰，完整且较权威。</p>
+</blockquote>
+<br/>
+<br/>
+然而，各大平台、媒体以及个人转载的时候，很少会提供出处，有的时候连作者都不提及。
+<p><strong>这里直接附上来源，你们可以随时去发布地址查看</strong><br>
+<br/><br/></p>
+<h2 id="cpu处理器天梯图byamd贴吧秋刀鱼半藏">CPU处理器天梯图byAMD贴吧@秋刀鱼半藏</h2>
+<p>贴吧发布地址：<a href="http://tieba.baidu.com/p/5005825360?pid=104845801702&amp;see_lz=1#104845801702">《史上最全桌面级CPU天梯图》专用更新帖(公测版)</a></p>
+<p><br/><br/><br/></p>
+<h2 id="gpu显卡天梯图byamd贴吧秋刀鱼半藏">GPU显卡天梯图byAMD贴吧@秋刀鱼半藏</h2>
+<p>贴吧发布地址：<a href="http://tieba.baidu.com/p/2250616047?see_lz=1&amp;pn=2">《史上最全桌面显卡天梯图》公测帖</a></p>
+<p>只看楼主，越往后越新。</p>
+<p><br/><br/><br/></p>
+<blockquote>
+<p>Hey，你好哇。影视剪辑 | AE | Pr | 电脑技术 | 摄影摄像 | 电影 | 电视剧 | 二次元</p>
+<p>我们下次见</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何正确使用Pandownload和Speedpan下载百度云]]></title>
+        <id>https://pcysanji.github.io/post/pd/</id>
+        <link href="https://pcysanji.github.io/post/pd/">
+        </link>
+        <updated>2019-07-10T09:14:57.000Z</updated>
+        <summary type="html"><![CDATA[<p>不好好看说明， 下载不了谁也怪不了。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>不好好看说明， 下载不了谁也怪不了。</p>
+ <!-- more --> 
+<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2019/03/06/5c7f12d848b54.jpg" alt="pd" loading="lazy"></figure>
+<h2 id="总的说明">总的说明</h2>
+<p>下载限制一直在变，以下文章请以实际为准，目前最佳参考：<br>
+<a href="https://wx2.sbimg.cn/2019/07/11/pandownload.png">一张图看懂使用pandownload下载百度云盘</a></p>
+<p>现在分享下载也会对账号进行限速（有加速的文件没影响），账号被限速之后不管是直接下载还是分享下载都会速度慢且容易出现403错误。</p>
+<p><strong>什么叫有加速的文件？</strong><br>
+Pandownload下载时出现闪电的标记，SpeedPan出现“黑”的字样。这种情况下，可以加速下载，即使帐号被限速也不影响加速。<br>
+<em>然而满足加速是有条件的</em>，条件如下：<br>
+（注：以下大小指的是单文件大小）</p>
+<h3 id="pandownload">Pandownload</h3>
+<figure data-type="image" tabindex="2"><img src="https://wx2.sbimg.cn/2019/07/11/pandownload.png" alt="一张图看懂使用pandownload下载百度云盘" loading="lazy"></figure>
+<ul>
+<li>
+<p>普通版：1. 登入帐号；2. 1G以上使用分享下载；3. 300M以下使用批量下载；4. 300M-1G只能用没限速的账号下载。</p>
+</li>
+<li>
+<p>beta版（5元付费入群）：50M以上使用分享下载(无需登入帐号)，50M以下使用批量下载</p>
+</li>
+</ul>
+<p>1.手动分享下载（适用于多文件或文件夹）重点推荐<br>
+<img src="https://i.loli.net/2019/03/06/5c7f13de671e8.jpg" alt="分享下载.gif" loading="lazy"></p>
+<p>2.一键分享下载（只能单选文件！）<br>
+<img src="https://i.loli.net/2019/03/06/5c7f14584c622.jpg" alt="一键分享下载.gif" loading="lazy"></p>
+<p>3.批量下载方式（可以多个文件一起下载，但累积大小不能超过300M)<br>
+<img src="https://i.loli.net/2019/03/06/5c7f148ae86b3.jpg" alt="批量下载.gif" loading="lazy"></p>
+<h3 id="speedpan">SpeedPan</h3>
+<p>1000M以上大文件可以免登录下载（无需登入帐号），小于300M使用打包下载， 打包后压缩包大小也不能超过300M。<br>
+定制版未知。</p>
+<figure data-type="image" tabindex="3"><img src="https://i.loli.net/2019/03/06/5c7f141937154.jpg" alt="速盘.png" loading="lazy"></figure>
+<p>尽量减少下载列表的资源数、日下载量尽可能降低至5G，单资源下载速度尽可能控制在3--5M/s。</p>
+<h3 id="二者的区别">二者的区别</h3>
+<p>Pandownload beta已满足所有下载需求，均可实现高速下载，所以这里只比较PD的普通版和SpeedPan。</p>
+<p>PD必须登入帐号，加速下载需满足大于1000M分享下载，或者小于300M批量下载。300-1000M自求多福。<br>
+SP大于800M即可免登入下载，登入后也切记要使用分享下载；小于300M使用打包下载，打包下载即PD的批量下载，这点机制完全一致，需要登入帐号，才能打包下载。300-800M自求多福。（注：虽然官方更新说明里写了大于800M有黑科技加速，但是在2月14日，加速触发点上调到了1000M，具体见官方论坛说明，也就说，限制和PD一样了）</p>
+<p>百度云的解析原理都一样，最初的确是PD先搞出的高速下载，后百度多次改机制。如今登入下载没有了封号的传闻，只是会对帐号进行限速。所以登入不登入，用PD普通版和SP都是差不多的。帐号肯定会被限制下载速度，但是分享下载/批量下载时，满足条件即可加速下载，跟限速毫无关系。</p>
+<p>另外同理，使用IDM+油猴也是一样满足以上条件。</p>
+<p>以上解释均来自于PD和SP的官方的FAQ与使用说明。若还有疑问，自行去人家官网查看更详细的信息：</p>
+<blockquote>
+<p>https://faq.speedpan.com/<br>
+https://pandownload.com/document.html</p>
+</blockquote>
+<p>若确实有300M-1000M的下载需求，可以10元入群：</p>
+<p><a href="https://pandownload.com/faq/about.html">https://pandownload.com/faq/about.html</a></p>
+<p>具体使用限制，请看此图：<a href="https://wx2.sbimg.cn/2019/07/11/pandownload.png">一张图看懂使用pandownload下载百度云盘</a></p>
+<p>Pandownload用户手册 PDF下载：<br>
+<a href="https://www.lanzous.com/i3rj0od">点我下载</a></p>
+<p>总比给百度冲钱划算。</p>
+<p>[知识科普]您的VIP/SVIP账号可能已被百度限速</p>
+<figure data-type="image" tabindex="4"><a href="https://sbimg.cn/image/FM91"><img src="https://wx2.sbimg.cn/2019/07/11/ban-svip.jpg" alt="ban-svip.jpg" loading="lazy"></a></figure>
+<p>百度目前是根据账号的下载量来限速的，当你的会员账号使用PanDownload下载时出现这个提示，那就说明你当前的会员账号下载量过大已经触发百度限速机制，请更换会员账号，但是一般自用的会员账号极少能触发限速（个别下载狂另当别论），还有一种情况就是网上租的共享会员账号，共享会员账号虽然廉价实惠，但是每个账号都是多人使用下载，很容易触发限速。大家有大量下载需求的时候自己开一个百度十元的会员即可，最起码能爽一个月。</p>
+<p>百度会员+PanDownload也是一种高速下载解决方案</p>
+<p>下载图片、音乐、文档等300M以下的文件，建议使用打包下载<br>
+下载高清电影、游戏分卷等800M-2G之间的文件，建议使用分享链接下载<br>
+平时下载的文件比较少的用户，推荐使用网页版<a href="https://www.baiduwp.com">https://www.baiduwp.com</a></p>
+<p><br/><br/></p>
+<blockquote>
+<p>Hey，你好哇。影视剪辑 | AE | Pr | 电脑技术 | 摄影摄像 | 电影 | 电视剧 | 二次元</p>
+<p>我们下次见</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「常见问题」B站官方二压说明以及Pr如何输出比较好]]></title>
+        <id>https://pcysanji.github.io/post/erya/</id>
+        <link href="https://pcysanji.github.io/post/erya/">
+        </link>
+        <updated>2019-06-28T04:24:21.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>B站官方二压说明<br>
+https://www.bilibili.com/read/cv949156</p>
+</blockquote>
+<figure data-type="image" tabindex="1"><img src="https://i0.hdslb.com/bfs/article/db75225feabec8d8b64ee7d3c7165cd639554cbc.png" alt="" loading="lazy"></figure>
+<p><strong>提取几个要点</strong></p>
+<h2 id="原文">原文</h2>
+<blockquote>
+<p>除1080P+/1080P60/720P60以外清晰度的视频，进行二压处理，以便将GOP对齐。同时，我们会尝试将GOP缩短至5s，方便不同码率的灵活切换。</p>
+</blockquote>
+<figure data-type="image" tabindex="2"><img src="https://i0.hdslb.com/bfs/article/d70aa5bd667435721727e1083de3fa11ba705b83.png@1320w_484h.webp" alt="" loading="lazy"></figure>
+<h2 id="解释">解释</h2>
+<ol>
+<li>
+<p>只有大会员画质的视频不二压，观众老爷们不是大会员就只能看到二压后的视频。</p>
+</li>
+<li>
+<p>GOP缩短到5S，也就是关键帧距离是5s，其实这个还好，我一般设置都是是帧率的2倍，也就是两秒。举个例子，如果是25帧的视频，关键帧距离不超过125；60帧的视频，关键帧距离不超过300帧。我们做的比较多的是25帧的视频，所以建议设置关键帧距离是120。另外其实推荐多做60帧的视频。</p>
+</li>
+<li>
+<p>具体最大码率看链接中的图表。主要说一下为了大会员老爷们可以看到不二压的视频，1080P+/1080P60/720P60的三类。常用的是25帧 1080P的，为了得到1080+的画质，码率要在3000-6000K范围。然后是偶尔可能要用的60帧 1080P的，建议码率是6000k以下即可，无下限。超过6000K码率的都会二压。</p>
+</li>
+<li>
+<p>至于没有大会员的观众老爷们，只能看二压后的视频，所以不用考虑他们的感受。</p>
+</li>
+<li>
+<p>为啥符合规范，上传时还会转码中？因为B站还需要生成别的档位的视频，我们只能在一个档位不二压，别的档位肯定得转码啊。</p>
+</li>
+</ol>
+<h2 id="读表">读表</h2>
+<figure data-type="image" tabindex="3"><img src="https://wx2.sbimg.cn/2019/06/28/b2018-11-26.png" alt="" loading="lazy"></figure>
+<p>只有大会员能看没有二压的原视频，分别是</p>
+<ul>
+<li>原视频：720P 帧率35到60帧，码率＜3000K，可以得到720P60的大会员视频。<br>
+码率大于3000K或帧率大于60二压，帧率小于35帧，大会员也看不了原视频，只有二压的。</li>
+<li>原视频：1080P 帧率小于35帧，码率3000-6000K，可以得到1080P+的大会员视频。<br>
+码率小于3000K，大会员也看不了原视频，只有二压的。<br>
+码率大于6000K，大会员可以看到二压后的1080+视频。</li>
+<li>原视频：1080P 帧率35到60帧，码率小于6000K，可以得到1080P60的大会员视频。<br>
+其余情况均为二压后，得到1080P60的大会员视频。</li>
+</ul>
+<h2 id="总结">总结</h2>
+<p>改版后，没有大会员就没有享受高画质的权利，只有二压视频。需要注意的是，大会员针对的是观众，而非上传者。上传者是否大会员，不影响上传视频的二压。只有大会员才能看无二压的原视频，在这个基础上，只有三种情况不二压，可以得到原视频。其余分辨率均会被二压。<br>
+即使我们创作者不是大会员，为了大会员能够享受高清画质。我们就得尽量符合以上的三种情况。</p>
+<h2 id="附录以及pr导出设置">附录以及Pr导出设置</h2>
+<h3 id="画面变化少的情况">画面变化少的情况</h3>
+<p>画面变化少的时候，x264的CRF表现出其强大之处，我把CRF数值改成接近无损的16的情况下，平均码率仅为500多；设置为10时，平均码率才到了1028kbps，最高码率9311kbps。<br>
+<img src="https://wx2.sbimg.cn/2019/06/28/25d1acb51dcfd61635365096793c10e0.png" alt="25d1acb51dcfd61635365096793c10e0.png" loading="lazy"></p>
+<p>不过这种情况上传B站始终都会二压。因为低于3000kbps的1080P 25帧的视频，不在大会员的视频规格内，而非大会员规格的视频，必然被二压。<br>
+拖入 b站投稿二压检测工具，可以得到如图所示:<br>
+<img src="https://wx2.sbimg.cn/2019/06/28/e7edc6f16f6809078dcc09ce8c7088b8.png" alt="e7edc6f16f6809078dcc09ce8c7088b8.png" loading="lazy"></p>
+<p>这里警告的视频规格低实际上就是指码率太低，不到3000kbps，所以只能得到二压后的高清 1080P。</p>
+<h3 id="pr的输出设置">Pr的输出设置</h3>
+<p>Pr输出设置要分情况讨论，我们接着上文<strong>画面信息变化不大</strong>来讲。<br>
+为了不二压，我们有两个方向：一是增大码率，二是增大帧率。</p>
+<ul>
+<li>
+<p>增大码率，Pr直出<br>
+既然要增大码率，我们就不进小丸压制了。要清楚压制的目的，是在控制视频大小的同时尽可能保证质量好。既然我们的视频大小已经符合要求，就无需再次压制了。<br>
+我们可以h.264 CBR为5.9（避免超过6000kbps），或者CBR 为 5-7。输出后，我们再进二压检测工具检测。</p>
+</li>
+<li>
+<p>增大帧率，小丸压制。<br>
+不用小丸也行，目的是用x264压制视频，得到视频文件大小合适的视频。<br>
+决定压制的话，我们就要保证Pr输出视频的质量尽可能的高。所以建议选择MOV ProRes的中间格式，windows如果没有ProRes，可以安装<a href="https://320studio.xyz/post/AC/">Aftercodecs插件</a>来输出MOV ProRes。<br>
+或者你也可以选择H.264，CBR，数值为10。<br>
+<strong>至关重要的是</strong>，在Pr输出时，要把帧率改为36，这是满足1080P60大会员画质的最低帧率，如果帧率过高，比如60帧，25帧变成60帧会导致画面卡顿。还有时间插值建议使用光流法，以减弱增大帧率带来的卡顿感。</p>
+</li>
+</ul>
+<p>那么<strong>画面信息比较大</strong>的时候呢？</p>
+<p>这个时候，Pr自带的H.264。编码效率是极差的，得到的画质并不优秀（不是不能看，跟X264在细节上的对比是有距离的，即使我们可能肉眼观察不到，或者观察到了也不在乎）。<br>
+所以这种情况下，实际上我都尽量避免使用Pr自带的H.264，在上面的情况中也一样，使用输出插件，比如<a href="https://320studio.xyz/post/AC/">Aftercodecs插件</a>、voukoder等来直出x264编码的Mp4视频，直接得到符合B站上传要求的视频，不通过小丸。</p>
+<p>那么同样你也可以选择通过小丸压制，桥接也好，先输出无损再进小丸都行。</p>
+<p>只是永远记住一点，为了高画质，多花点时间。</p>
+<h3 id="一些提到的工具和b站up必备教程">一些提到的工具和B站Up必备教程</h3>
+<p>小丸群的超级菜鸟和磁爆线圈-X分别编写了工具和手册，这里真的要感谢他们。同时还有小丸工具箱的作者，小丸酱和06_taro编译的更强大好用的x264。</p>
+<p><strong>B站UP必知</strong><br>
+<a href="https://www.lanzous.com/b805260/">https://www.lanzous.com/b805260/</a><br>
+密码:72gi</p>
+<p><strong>小丸工具箱</strong><br>
+<a href="https://pan.baidu.com/s/1CWGtiKHgZUlfuvikYDHmJw">https://pan.baidu.com/s/1CWGtiKHgZUlfuvikYDHmJw</a></p>
+<p><br/><br/></p>
+<blockquote>
+<p>Hey，你好哇。影视剪辑 | AE | Pr | 电脑技术 | 摄影摄像 | 电影 | 电视剧 | 二次元</p>
+<p>我们下次见</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「插件」编码加速渲染输出插件Autokroma AfterCodecs]]></title>
+        <id>https://pcysanji.github.io/post/AC/</id>
+        <link href="https://pcysanji.github.io/post/AC/">
+        </link>
+        <updated>2019-06-24T19:40:54.000Z</updated>
+        <summary type="html"><![CDATA[<p>必备插件！Ae直出H.264，Windows下也可输出ProRes，x264和x265编码器，比Pr自带的h.264好，文件可以更小，画质更好。我现在输出主用这个。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>必备插件！Ae直出H.264，Windows下也可输出ProRes，x264和x265编码器，比Pr自带的h.264好，文件可以更小，画质更好。我现在输出主用这个。</p>
+<!-- more -->
+<h2 id="用于adobe-cc的aftercodecs插件">用于Adobe CC的AfterCodecs插件</h2>
+<h3 id="填补编解码器缝隙">填补编解码器缝隙</h3>
+<blockquote>
+<p>AfterCodecs为您提供所需的所有编解码器和功能的一致性</p>
+</blockquote>
+<ul>
+<li>即使在Windows上也可以输出ProRes</li>
+<li>H264 8K（不限于4K）和快速的YouTube导出配置文件</li>
+<li>4个HAP编解码器具有更快的算法</li>
+<li>无需Quicktime</li>
+</ul>
+<h3 id="更好更快的压制">更好更快的压制</h3>
+<blockquote>
+<p>AfterCodecs使用ffmpeg编码H264和H265</p>
+</blockquote>
+<ul>
+<li>低比特率视频质量比以前更好</li>
+<li>选择您需要的编码效率：预览需要的快速编码或最终交付的低文件大小</li>
+<li>直接在AE渲染队列中节省时间，无需触及命令行和巨大的临时文件</li>
+<li>合适的文件大小</li>
+</ul>
+<figure data-type="image" tabindex="1"><img src="https://wx2.sbimg.cn/2019/06/25/bomi-snapshot-2019-06-25-03-24-46.png" alt="适配软件" loading="lazy"></figure>
+<h3 id="更新说明">更新说明</h3>
+<ul>
+<li>1.6.4 -  2019年6月10日</li>
+</ul>
+<blockquote>
+<ul>
+<li>许可错误修复和新的“粘贴剪贴板”按钮在OSX上有用，其中用于粘贴许可证的COMMAND + V不起作用</li>
+<li>OSX：当使用多个屏幕时，设置弹出窗口将消失，现在它显示在主屏幕上</li>
+</ul>
+</blockquote>
+<ul>
+<li>1.6.3  -  2019年6月7日</li>
+</ul>
+<blockquote>
+<ul>
+<li>小BUG修复</li>
+</ul>
+</blockquote>
+<ul>
+<li>1.6.2  -  2019年6月5日</li>
+</ul>
+<blockquote>
+<ul>
+<li>各种崩溃修复和使用 ffkroma 4.1-103</li>
+<li>您现在可以在<a href="https://autokroma.com">https://autokroma.com</a> 上购买AfterCodecs许可证！这个版本是第一个兼容的版本</li>
+<li>插件现在位于MediaCore的“Autokroma AfterCodecs”子文件夹中，并且ffkroma会自动复制：您无需再在OSX的“设置”选项卡中下载它。 安装过程还会删除插件的旧版本</li>
+</ul>
+</blockquote>
+<h3 id="官方用户指南">官方用户指南</h3>
+<ul>
+<li>在线查看：<a href="https://autokroma.com/AfterCodecs/User_Guide/#What-are-the-requirements-tech-specs-and-codecs-available">官方用户指南(英文)</a></li>
+</ul>
+<h2 id="技术规格">技术规格</h2>
+<h3 id="支持范围">支持范围</h3>
+<ul>
+<li>Mac OSX：版本&gt; = 10.10</li>
+<li>Microsoft Windows：版本7/8/10</li>
+<li>After Effects CC 2019, CC 2018, CC 2017, CC 2015.3, CC 2015, CC 2014</li>
+<li>Premiere CC 2019, CC 2018, CC 2017, CC 2015.3, CC 2015, CC 2014</li>
+<li>Media Encoder CC 2019, CC 2018, CC 2017, CC 2015</li>
+</ul>
+<h3 id="编解码器和容器">编解码器和容器</h3>
+<ul>
+<li>[MOV] ProRes：6个官方配置文件（422 LT /代理/普通/ HQ / 4444 / XQ）和两个非官方配置文件（422 Ultra和4444 Light）。 ProRes 4444 Light / 4444 / XQ支持Alpha通道。</li>
+<li>[MOV] HAP GPU加速编解码器：4个编解码器（Hap，Hap Alpha，Hap Q和Hap Q Alpha），您可以选择禁用Snappy压缩并更改CPU块数，对于Hap和Hap Alpha，您可以选择压缩算法 （每个都有速度和质量之间的权衡）</li>
+<li>[MOV] [MP4] x264：最佳H264 / AVC实现，优于Adobe Media Encoder和QuickTime H264。 提供了一个特殊的Youtube上传配置文件，非常易于使用！</li>
+<li>[MOV] [MP4] x265：相同质量的文件比x264轻约25％，但编码速度较慢</li>
+<li>[MOV] [MP4] x264 RGB：与x264相同，但避免使用YUV色彩空间，最适合在一个视频中存储单独的通道，如UV地图，Alpha，3D通道等（适用于高级用户！）</li>
+</ul>
+<figure data-type="image" tabindex="2"><img src="https://wx2.sbimg.cn/2019/06/25/bomi-snapshot-2019-06-25-03-24-41.png" alt="编解码器" loading="lazy"></figure>
+<h3 id="已知限制">已知限制</h3>
+<ul>
+<li>OSX上的AE：对同一队列项并行渲染时，多个输出模块不起作用</li>
+<li>不要使用ProRes进行广播。 始终测试您的硬件和软件。 它不是ProRes的正式版本; 例如，Blackmagic Hyperdeck Studio Mini似乎不接受ProRes 4444的Alpha通道。</li>
+<li>OSX：使用多个显示器时出现一些问题，弹出窗口会自动将其自身重定位到主屏幕。 别忘了你可以按SHIFT + ESC将窗口放回左上角</li>
+<li>对于H264和H265，视频的尺寸必须是偶数（=&gt;奇数分辨率将失败），除非您为H264选择YUV 4：4：4</li>
+<li>隔行扫描：在H264中会被Adobe默认认为是上场（高场）</li>
+</ul>
+<figure data-type="image" tabindex="3"><a href="https://sbimg.cn/image/TOQM"><img src="https://wx2.sbimg.cn/2019/06/25/bomi-snapshot-2019-06-25-03-24-55.png" alt="AC" loading="lazy"></a></figure>
+<h2 id="下载地址">下载地址</h2>
+<blockquote>
+<p>开发人员：Autokroma<br>
+语言：中文+英语<br>
+提供版本：汉化版+英文版</p>
+</blockquote>
+<p><a href="https://www.lanzous.com/b567378">蓝奏云下载：https://www.lanzous.com/b567378</a></p>
+<p><br/><br/></p>
+<blockquote>
+<p>Hey，你好哇。影视剪辑 | AE | Pr | 电脑技术 | 摄影摄像 | 电影 | 电视剧 | 二次元</p>
+<p>我们下次见</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「WIN」比较使用了十余款图片查看器，我最终选择了它]]></title>
+        <id>https://pcysanji.github.io/post/ImageGlass/</id>
+        <link href="https://pcysanji.github.io/post/ImageGlass/">
+        </link>
+        <updated>2019-06-24T00:08:08.000Z</updated>
+        <summary type="html"><![CDATA[<p>图片打开速度，支持图片格式多，尤其是是否支持ICO/PSD/WEBM/RAW等格式的文件，以及图片查看器的美观性易用性，必要的还需要带有一定的图片编辑能力。这几点是我对一款图片查看器的筛选条件。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>图片打开速度，支持图片格式多，尤其是是否支持ICO/PSD/WEBM/RAW等格式的文件，以及图片查看器的美观性易用性，必要的还需要带有一定的图片编辑能力。这几点是我对一款图片查看器的筛选条件。</p>
+<!-- more --> 
+<blockquote>
+<p>图片打开速度，支持图片格式多，尤其是是否支持ICO/PSD/WEBM/RAW等格式的文件，以及图片查看器的美观性易用性，必要的还需要带有一定的图片编辑能力。这几点是我对一款图片查看器的筛选条件。</p>
+</blockquote>
+<figure data-type="image" tabindex="1"><img src="https://wx2.sbimg.cn/2019/06/24/ApplicationFrameHost_4DI6lReoaa.png" alt="自带照片" loading="lazy"></figure>
+<p>首当其冲，我先排除了windows自带的新旧两款图片查看器，Windows 照片查看器虽然打开速度快，但是不支持GIF；照片UWP吧打开速度不快，透明Alpha没有网格，纯黑色有时候会无法区分是否透明，还有边框，操作习惯无法自定，不支持PSD等缺点。</p>
+<figure data-type="image" tabindex="2"><img src="https://www.xnview.com/assets/img/screenshots/xnviewmp-win-01.png" alt="XNVIEW" loading="lazy"></figure>
+<p>然后就是XnView和FastStone Image Viewer，功能全，但是打开速度不满意，还有就是这种界面风格不够简洁，按钮过多，窗口过多。又是目录窗口，又是缩略图窗口，又是多标签。这类图片查看器我更愿意叫它们图片管理器，管理图片用的，而不是照片查看，不符合我的需求。</p>
+<figure data-type="image" tabindex="3"><img src="https://wx2.sbimg.cn/2019/06/24/NexusImage_jbKIm6h9Nt.png" alt="NexusImage_jbKIm6h9Nt.png" loading="lazy"></figure>
+<p>再接着nomacs、NexusImage，可以无边框，且有同目录下的其他图片缩略图。怎么说还是喜欢不起来。Nomacs挺好，就是打开速度慢。NexusImage 自定义性不强，可选操作少，界面也一成不变，而且已经停止开发。</p>
+<figure data-type="image" tabindex="4"><img src="https://wx2.sbimg.cn/2019/06/24/Kt6c3T3EYm.png" alt="KVieas" loading="lazy"></figure>
+<p>说到停止开发的图片查看器还有很多，比如Vieas、IrfanView、Picasa、ACDSee、MassiGra，这都是老牌好用的图片浏览工具，打开速度很快，界面简洁。Vieas是我一直在用的软件，也是我很推荐的一款图片查看器。<br>
+原因在于，因为设计比较早，所以界面肯定不符合我们当下的审美，所幸的是Vieas可以实现完全无边框，这样看图片就简洁了很多。我为它汉化了简体中文，并添加了一些插件来支持更多的格式。然而可惜的是支持的格式仍旧未满足我当前的需求。实际上日常看图如果只看gif/jpg/png等格式的，Vieas我觉得仍旧是很好的选择。打开速度快、无边框是这款最大的优点，基本秒开的速度。</p>
+<p><img src="https://wx2.sbimg.cn/2019/06/24/Z6KaCv9Edy.png" alt="Z6KaCv9Edy.png" loading="lazy"><br>
+<img src="https://wx2.sbimg.cn/2019/06/24/g0F1xbBG8c.png" alt="g0F1xbBG8c.png" loading="lazy"></p>
+<p>最后，为了能够满足我更多格式的需求，我又测试了Honeyview、qView、QuickViewer、Image Eye，这四款软件各有优略，我希望大家可以根据自己的需求体验和取舍。让我放弃的无非就是操作逻辑、界面、以及图片打开速度，分别成为了这几款软件的优点或缺点。</p>
+<figure data-type="image" tabindex="5"><img src="https://wx2.sbimg.cn/2019/06/24/SZeJ8PguCa.png" alt="SZeJ8PguCa.png" loading="lazy"></figure>
+<p>HoneyView体验良好，而且可以无边框，看gif时还有帧率显示，支持格式也多。但是honeyview的窗口大小是固定的，不能适应打开图片的大小，背景也没有网格显示，不过倒是可以定义。我相信这款看图软件是大多数人的选择，然而我对它及其没好看，其中还有一个原因是曾经使用bandizip（现在已经抛弃）时，软件捆绑安装了honeyview的问题。当时honeyview的体验还没有现在那么好。它主要可以查看压缩包里图片，还可以做书签，看漫画的时候不错。</p>
+<figure data-type="image" tabindex="6"><img src="https://wx2.sbimg.cn/2019/06/24/bXx3X1n97P.png" alt="ImageGlass图片查看器.png" loading="lazy"></figure>
+<p>最后的最后我选择了<strong>imageglass</strong>，开篇说的——</p>
+<blockquote>
+<p>图片打开速度，支持图片格式多，尤其是是否支持ICO/PSD/WEBM/RAW等格式的文件，以及图片查看器的美观性易用性，必要的还需要带有一定的图片编辑能力。<br>
+这几点都有达到要求，虽然还有不如我心的地方，不过还是被颜值打败。赏心悦目更现代化的界面，可以自定义主题，操作习惯鼠标快捷键都可以设定。</p>
+</blockquote>
+<figure data-type="image" tabindex="7"><img src="https://wx2.sbimg.cn/2019/06/24/Ta1lt7ieXO.png" alt="ImageGlass图片查看器.png" loading="lazy"></figure>
+<h2 id="下载地址">下载地址</h2>
+<blockquote>
+<p>开发人员：Dương Diệu Pháp<br>
+语言：多语言<br>
+提供版本：官方中文便携版</p>
+</blockquote>
+<p><a href="https://www.lanzous.com/b797574/">蓝奏云下载：https://www.lanzous.com/b797574/</a><br>
+密码:88n2</p>
+<p>官网地址：imageglass.org/<br>
+需要注意的是，官网下载不自带中文简体语言包，蓝奏云的版本我已经安装了语言包和主题。你也可以单独下载中文简体语言包：https://imageglass.org/language/download/zh-CN</p>
+<figure data-type="image" tabindex="8"><img src="https://wx2.sbimg.cn/2019/06/24/ImageGlass_A1aHUwPEt0.png" alt="ImageGlass_A1aHUwPEt0.png" loading="lazy"></figure>
+<p>此软件开源免费，软件开发者是一位越南的28岁前端开发者噢。</p>
+<p>另外还要补充一点，其实这些无边框查看器并非真正意义上的无边框，因为他们都有背景。其实在查看有透明通道的png/gif/tiff文件时，我觉得可以完全丢掉背景啊，因为文件本身就没有背景，图片查看器干嘛要加个背景。image Eye可以实现半透明背景，还挺好看的。不过不知道是啥原因，没有一个可以没有边框和没有背景的查看器</p>
+<p><br/><br/></p>
+<blockquote>
+<p>Hey，你好哇。影视剪辑 | AE | Pr | 电脑技术 | 摄影摄像 | 电影 | 电视剧 | 二次元</p>
+<p>我们下次见</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「WIN」Folder2List_文件夹转列表工具]]></title>
+        <id>https://pcysanji.github.io/post/folder2list/</id>
+        <link href="https://pcysanji.github.io/post/folder2list/">
+        </link>
+        <updated>2019-06-23T20:24:15.000Z</updated>
+        <summary type="html"><![CDATA[<p>Folder2List是一个用于快速轻松地显示文件和文件夹列表的程序。选择要从各种属性显示的数据，并使用各种设置格式化数据。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Folder2List是一个用于快速轻松地显示文件和文件夹列表的程序。选择要从各种属性显示的数据，并使用各种设置格式化数据。<br>
+<!-- more --></p>
+<p>Folder2List是一个用于快速轻松地显示文件和文件夹列表的程序。选择要从各种属性显示的数据，并使用各种设置格式化数据。该软件支持元数据，如EXIF，IPTC，ID3，视频属性，可以处理文档。这使您可以智能地列出有关MP3文件或照片的信息。该程序提供了许多选项，可以单独调整列表的外观。只需点击几下，您就可以自定义字体，背景颜色，框架等。您可以将这些设置保存为配置文件，然后返回到它们，或者您可以选择准备配置文件。可以以各种格式（XLS，Excel-XML，PDF，HTML，CSV和TXT）打印和导出生成的文件夹或文件列表。</p>
+<figure data-type="image" tabindex="1"><img src="https://wx2.sbimg.cn/2019/06/24/Folder2List_HPMPGJREvY.png" alt="Folder2List_HPMPGJREvY.png" loading="lazy"></figure>
+<p>创建数据列表时，可以使用大小，创建日期，文件扩展名等参数。此外，您可以使用文件中包含的不同元数据。此功能允许您创建例如存储有关艺术家，专辑和流派信息的MP3列表。借助Folder2List，您可以轻松打印文件夹的内容。或者，您可以根据需要将目录的内容保存为文本文件，CSV文件和其他内容，以便进一步处理提取的信息。</p>
+<figure data-type="image" tabindex="2"><img src="https://wx2.sbimg.cn/2019/06/24/Folder2List_q5pAmqU1VE.png" alt="Folder2List_q5pAmqU1VE.png" loading="lazy"></figure>
+<h2 id="下载地址">下载地址</h2>
+<blockquote>
+<p>开发人员：Gillmeister Software<br>
+语言：英语<br>
+提供版本：安装包+破解补丁</p>
+</blockquote>
+<p><a href="https://www.lanzous.com/b797544/">蓝奏云下载：https://www.lanzous.com/b797544/</a><br>
+密码:76sw</p>
+<p><br/><br/></p>
+<blockquote>
+<p>Hey，你好哇。影视剪辑 | AE | Pr | 电脑技术 | 摄影摄像 | 电影 | 电视剧 | 二次元</p>
+<p>我们下次见</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「WIN」Total Image Converter_全能图片转换转码工具]]></title>
+        <id>https://pcysanji.github.io/post/TotalImageConverter/</id>
+        <link href="https://pcysanji.github.io/post/TotalImageConverter/">
+        </link>
+        <updated>2019-06-23T19:58:36.000Z</updated>
+        <summary type="html"><![CDATA[<p>Total Image Converter是专为Windows用户设计的强大工具。从图像格式转换到润饰再到优化，它拥有我们期望的图像转换软件的所有常见功能。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Total Image Converter是专为Windows用户设计的强大工具。从图像格式转换到润饰再到优化，它拥有我们期望的图像转换软件的所有常见功能。</p>
+<!-- more -->
+<h2 id="total-image-converter-全能图片转换">Total Image Converter 全能图片转换</h2>
+<blockquote>
+<p>Total Image Converter是专为Windows用户设计的强大工具。从图像格式转换到润饰再到优化，它拥有我们期望的图像转换软件的所有常见功能。</p>
+</blockquote>
+<figure data-type="image" tabindex="1"><img src="https://wx2.sbimg.cn/2019/06/24/Total-Image-Converter.png" alt="Total-Image-Converter.png" loading="lazy"></figure>
+<h3 id="支持的源图像文件类型">支持的源图像文件类型</h3>
+<p>PSD, PDF, TIFF, BMP, PNG, ICO, JPEG, JPG, JPG2000, HEIC, GIF, PCX, TGA, PXM, WebP, PC, PCL, XPS, PPTX, AVS, CIN, DOT, DPX, FITS, HDF, MIFF, MTV, PALM, RAW, PICT, SGI, SUN, VICAR, VIFF, XBM, XPM. Raw graphic formats (RAW, CRW, CR2, NEF, NRW, PEF, RAF, X3F, BAY, ORF, MRW, SRF, MRW, DNG).</p>
+<h3 id="支持的输出图像文件类型">支持的输出图像文件类型</h3>
+<p>PDF, TIFF, BMP, PNG, ICO, JPEG, JPG, JPG2000, GIF, TGA, PXM, WebP, PC, PCL, XPS, PPTX, AVS, CIN, DOT, DPX, FITS, HDF, MIFF, MTV, PALM, RAW, PICT, SGI, SUN, VICAR, VIFF, XBM, XPM.</p>
+<h3 id="软件简介">软件简介</h3>
+<p>CoolUtils Total Image Converter允许您拍摄图像并创建具有不同大小或格式的新图像，或者只需单击一下即可执行大批量图形文件的任务。 它对网页设计师和其他IT专业人士来说非常宝贵。</p>
+<p>CoolUtils Total Image Converter可帮助您转换图像大小和格式。 所有网页设计师必备的实用程序。 Image Converter是独一无二的 - 它支持几乎所有流行的格式（JPG，GIF，BMP，PBM，PGM，PCX，PNG，PPM，TGA，TIF，WMF，EMF）。 您所要做的就是设置所需的大小或格式，Total Image Converter会自动完成剩下的工作。</p>
+<p>使用Total Image Converter，您还可以调整大小，旋转或执行镜像以及更改颜色分辨率。如果您有要转换的图像列表，请使用我们的批处理。只需点击一下，您就可以获得数百个图像转换或调整大小！ImageConverter是以最合理的价格转换图像的最佳解决方案。</p>
+<figure data-type="image" tabindex="2"><img src="https://wx2.sbimg.cn/2019/06/24/Total-Image-Converter2.png" alt="Total-Image-Converter2.png" loading="lazy"></figure>
+<h3 id="功能特性">功能特性</h3>
+<ol>
+<li>支持几乎所有图像格式</li>
+<li>支持多线程批量处理</li>
+<li>内置图像预览，轻松查看图像</li>
+<li>调整大小，旋转，裁剪，镜像</li>
+<li>添加水印功能</li>
+</ol>
+<h2 id="下载地址">下载地址</h2>
+<blockquote>
+<p>开发商(人员)：Coolutils<br>
+提供版本：中文便携破解版<br>
+语言：中文</p>
+</blockquote>
+<p><a href="https://www.lanzous.com/b797538/">蓝奏云下载：https://www.lanzous.com/b797538/</a><br>
+密码:gghe</p>
+<p><br/><br/></p>
+<blockquote>
+<p>Hey，你好哇。影视剪辑 | AE | Pr | 电脑技术 | 摄影摄像 | 电影 | 电视剧 | 二次元</p>
+<p>我们下次见</p>
+</blockquote>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「WIN」HEU KMS Activator  知彼而知己KMS激活工具（2019.6.23 更新 HEU KMS Activator v19.3.0）]]></title>
+        <id>https://pcysanji.github.io/post/heu/</id>
+        <link href="https://pcysanji.github.io/post/heu/">
+        </link>
+        <updated>2019-06-23T16:12:48.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>HEU KMS Activator 是有一位 知彼而知己 的大神所开发的KMS激活工具，此工具可以完美的激活Windows以及Office的VL版本，无需联网即可一键激活，而且此工具带有静默激活参数可以用来封装使用，在封装系统安装后调用HEU KMS Activator 计划任务 加上静默激活参数可完美激活。</p>
+</blockquote>
+<ul>
+<li>
+<p>下载地址1：<br>
+https://pan.baidu.com/s/15WdRiAZhJqPqUaIHjqy7JA<br>
+提取码：ie44</p>
+</li>
+<li>
+<p>下载地址2：<br>
+https://github.com/zbezj/HEU_KMS_Activator</p>
+</li>
+</ul>
+<h2 id="功能简介">功能简介</h2>
+<ol>
+<li>数字权利激活：仅支持Windows10(永久激活，与KMS机制无关)。</li>
+<li>KMS支持版本：Windows Vista(VL)/7(VL)/8/8.1/10/Server、Office2019/2016/2013/2010(自动将Retail版转化为VL版)。</li>
+<li>KMS38支持版本：Windows 10/Server，激活有效期至2038年。</li>
+<li>备份和还原“激活信息”。</li>
+<li>连接公网KMS服务器并进行激活。</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="https://wx2.sbimg.cn/2019/06/24/640.jpg" alt="640.jpg" loading="lazy"></figure>
+<h2 id="简明激活教程">简明激活教程</h2>
+<p>1、如果激活Windows则点击按钮“激活Windows”，如果激活Office 2010则点击按钮“激活WindowsOffice 2010 VL”，如果激活Office 2013则点击按钮“激活WindowsOffice 2013 VL”，180天后到期，再次执行相同的操作即可。</p>
+<p>2、如果想免去180天执行一次激活的操作，可以点击【高级】里面的按钮“安装自动续期服务”，如果卸载点击“卸载自动续期服务”即可。</p>
+<p>3、如果既安装了Windows又安装了Office，可以分别点击上述按钮来激活，也可以点击按钮“一键激活(ALL)并自动续期”，完成激活并自动安装续期服务。</p>
+<p>“自动续期服务”的作用是：保持开机启动，永远维持激活状态，这项是可选操作。</p>
+<h2 id="使用公网kms服务器激活">使用公网KMS服务器激活</h2>
+<p>1、在【附加】选项中，输入服务器的IP地址；<br>
+2、然后依次点击“第1步”、“第2步”、“第3步”即可。</p>
+<h2 id="搭建kms服务器">搭建KMS服务器</h2>
+<p>1、在【附加】选项中，使用默认IP地址，点击第1步即可搭建成功<br>
+2、将计算机连接到公网，公网IP作为KMS服务器的地址，其他计算机连接上即可激活。</p>
+<h2 id="静默参数">静默参数</h2>
+<p>/? 查看具体参数；<br>
+/s 激活Windows和Office；<br>
+/i 安装自动续期服务；<br>
+/u 卸载自动续期服务；</p>
+<h2 id="更新日志">更新日志</h2>
+<p>[2019.6.23] v19.3.0（“迷你”版）更新说明：</p>
+<ol>
+<li>修复Win7系统下任务计划报错的bug。</li>
+<li>修复Office 2010/2013 C2R版本识别错误的bug。</li>
+<li>修复某些情况下点击按钮无效，需重启软件的bug。</li>
+<li>点击“安装/卸载续期任务计划”时，增加提示说明。</li>
+</ol>
+<p>文件: HEU_KMS_Activator_v19.3.0.exe<br>
+SHA1: 6CE79DD57C7B5B99C19ED7A1D6E156A23707052E</p>
+<p>====================================</p>
+<p>Windows10转化为Enterprise G版<br>
+并激活400年的方法：</p>
+<p>====================================</p>
+<p>1、选择【高级】菜单中间的下拉菜单Licence；<br>
+2、修改本软件同一目录下的配置文件“HEU_Configuration.ini”</p>
+<pre><code>    [Windows]
+     Edition=EnterpriseG
+</code></pre>
+<p>3、点击按钮“更改Windows版本”，即可将Win10转化为Enterprise G版；<br>
+4、点击【普通】菜单中按钮“激活Microsoft Windows”即可。</p>
+<p><strong>支持以下版本：</strong><br>
+Windows 10 1703/1709/1803/1809/1903<br>
+Home/Professional/Education/Enterprise<br>
+Windows 10 LTSC 2019</p>
+<p><strong>不支持以下版本：</strong><br>
+Windows 10 1511/1607<br>
+Home/Professional/Education/Enterprise<br>
+Windows 10 LTSB 2015/2016</p>
+<h2 id="特别提示">特别提示</h2>
+<p>1.激活过程中会自动安装虚拟网卡，如果提示安装驱动，必须“确定”，否则无法激活。激活完毕后会自动卸载虚拟网卡，整个过程完全自动。<br>
+2.激活速度应该会很快（大约15秒），如果进度条卡住不动，很有可能是以前使用过的同类软件卸载不干净所致。各位朋友你的Windows/Office激活用了多长时间？</p>
+<p>win8.1激活要手动输入服务器地址，比如：cckms.nccu.edu.tw</p>
+<p><br/><br/></p>
+<blockquote>
+<p>Hey，你好哇。影视剪辑 | AE | Pr | 电脑技术 | 摄影摄像 | 电影 | 电视剧 | 二次元</p>
+<p>我们下次见</p>
+</blockquote>
+]]></content>
+    </entry>
+</feed>

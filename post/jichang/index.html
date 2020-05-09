@@ -1,0 +1,720 @@
+
+<!DOCTYPE HTML>
+<html class="no-js" >
+<head>
+        <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/autoload.js"></script>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="renderer" content="webkit">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<title>代开ji场，畅游网络 | 320印象 | 静海流沙的呜啦啦嘿</title>
+
+<!-- APlayer Start -->
+<link rel="stylesheet" type="text/css" href="https://pcysanji.github.io/styles/main.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<script>var APlayers = [];var APlayerOptions = [];</script>
+<!-- APlayer End -->
+	<script type="text/javascript">
+    window['LocalConst'] = {
+        THEME_VERSION: "1.7.10.DEV4(190612A)",
+        BASE_SCRIPT_URL: "https://cdn.fyun.org/usr/themes/Mirages/",
+        DEV_MODE: false,
+        IS_MOBILE: false,
+        IS_PHONE: false,
+        IS_TABLET: false,
+        HAS_LOGIN: false,
+        IS_HTTPS: true,
+        ENABLE_PJAX: false,
+        ENABLE_WEBP: true,
+        SHOW_TOC: false,
+        ENABLE_IMAGE_SIZE_OPTIMIZE: true,
+        THEME_COLOR: '#1abc9c',
+        DISQUS_SHORT_NAME: '',
+        COMMENT_SYSTEM: 0,
+        OWO_API: 'https://cdn.fyun.org/usr/themes/Mirages/js/1.7.10dev4/OwO.json',
+        COMMENT_SYSTEM_DISQUS: 1,
+        COMMENT_SYSTEM_DUOSHUO: 2,
+        COMMENT_SYSTEM_EMBED: 0,
+        PJAX_LOAD_STYLE: 0,
+        PJAX_LOAD_STYLE_SIMPLE: 0,
+        PJAX_LOAD_STYLE_CIRCLE: 1,
+        AUTO_NIGHT_SHIFT: true,
+        USE_MIRAGES_DARK: false,
+        PREFERS_DARK_MODE: false,
+        LIGHT_THEME_CLASS: "theme-white",
+        TOC_AT_LEFT: false,
+        SERIF_LOAD_NOTICE: '加载 Serif 字体可能需要 10 秒钟左右，请耐心等待',
+        ROOT_FONT_SIZE: '100',
+        BIAOQING_PAOPAO_PATH: '',
+        BIAOQING_ARU_PATH: '',
+        CDN_TYPE_OTHERS: -1,
+        CDN_TYPE_QINIU: 1,
+        CDN_TYPE_UPYUN: 2,
+        CDN_TYPE_LOCAL: 3,
+        CDN_TYPE_ALIYUN_OSS: 4,
+        CDN_TYPE_QCLOUD_CI: 5,
+        KEY_CDN_TYPE: '',
+        UPYUN_SPLIT_TAG: '!',
+        COMMENTS_ORDER: 'ASC',
+        ENABLE_FLOW_CHART: false,
+        ENABLE_MERMAID: false,
+        HIDE_CODE_LINE_NUMBER: false,
+        TRIM_LAST_LINE_BREAK_IN_CODE_BLOCK: true    };
+    var Mlog = function (message) {
+        if (LocalConst.DEV_MODE) {
+            console.log(message);
+        }
+    };
+                    LocalConst.BIAOQING_PAOPAO_PATH = 'https://cdn.fyun.org/usr/plugins/Mirages/biaoqing/paopao/';
+        LocalConst.BIAOQING_ARU_PATH = 'https://cdn.fyun.org/usr/plugins/Mirages/biaoqing/aru/';
+        var BIAOQING_PAOPAO_PATH = LocalConst.BIAOQING_PAOPAO_PATH;
+        var BIAOQING_ARU_PATH = LocalConst.BIAOQING_ARU_PATH;
+                LocalConst.KEY_CDN_TYPE = 'mirages-cdn-type';
+        LocalConst.UPYUN_SPLIT_TAG = '!';
+    </script>
+<style type="text/css">
+        /* Lora */
+    @font-face {
+        font-family: 'Lora';
+        font-style: normal;
+        font-weight: 400;
+        font-display: fallback;
+        src:
+                local('Lora Regular'),
+                local('Lora-Regular'),
+                url(https://cdn.fyun.org/usr/themes/Mirages/fonts/Lora/400.woff2) format('woff2'),
+                url(https://cdn.fyun.org/usr/themes/Mirages/fonts/Lora/400.woff) format('woff');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    @font-face {
+        font-family: 'Lora';
+        font-style: normal;
+        font-weight: 700;
+        font-display: fallback;
+        src:
+                local('Lora Bold'),
+                local('Lora-Bold'),
+                url(https://cdn.fyun.org/usr/themes/Mirages/fonts/Lora/700.woff2) format('woff2'),
+                url(https://cdn.fyun.org/usr/themes/Mirages/fonts/Lora/700.woff) format('woff');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+</style>
+<link rel="stylesheet" href="https://pcysanji.github.io/styles/main.css">
+
+    <script>
+        var hour = new Date().getHours();
+        if (hour <= 5 || hour >= 22) {
+            LocalConst.USE_MIRAGES_DARK = true;
+        }
+    </script>
+
+    
+
+
+
+<script type="text/javascript">
+    var autoHideElements = {};
+    var CSS = function (css) {
+        var link = document.createElement('link');
+        link.setAttribute('rel', 'stylesheet');
+        link.href = css;
+        document.head.appendChild(link);
+    };
+    var STYLE = function (style, type) {
+        type = type || 'text/css';
+        var s = document.createElement('style');
+        s.type = type;
+        s.textContent = style;
+        document.head.appendChild(s);
+    };
+    var JS = function (js, async) {
+        async = async || false;
+        var sc = document.createElement('script'), s = document.scripts[0];
+        sc.src = js; sc.async = async;
+        s.parentNode.insertBefore(sc, s);
+    };
+    var registAutoHideElement = function (selector) {
+        var tmp = autoHideElements[selector];
+        if (typeof(tmp) !== 'undefined') {
+            return;
+        }
+        var element = document.querySelector(selector);
+        if (element && typeof(Headroom) !== "undefined") {
+            var headroom = new Headroom(element, {
+                tolerance: 5,
+                offset : 5,
+                classes: {
+                    initial: "show",
+                    pinned: "show",
+                    unpinned: "hide"
+                }
+            });
+            headroom.init();
+            autoHideElements[selector] = headroom;
+        }
+    };
+    var getImageAddon = function (cdnType, width, height) {
+        if (!LocalConst.ENABLE_IMAGE_SIZE_OPTIMIZE) {
+            return "";
+        }
+        if (cdnType == LocalConst.CDN_TYPE_LOCAL || cdnType == LocalConst.CDN_TYPE_OTHERS) {
+            return "";
+        }
+        var addon = "?";
+        if (cdnType == LocalConst.CDN_TYPE_UPYUN) {
+            addon = LocalConst.UPYUN_SPLIT_TAG;
+        }
+        var ratio = window.devicePixelRatio || 1;
+        width = width || window.innerWidth;
+        height = height || window.innerHeight;
+        width = width || 0;
+        height = height || 0;
+        if (width == 0 && height == 0) {
+            return "";
+        }
+        var format = "";
+        if (LocalConst.ENABLE_WEBP) {
+            if (cdnType == LocalConst.CDN_TYPE_ALIYUN_OSS) {
+                format = "/format,webp"
+            } else {
+                format = "/format/webp";
+            }
+        }
+        if (width >= height) {
+            if (cdnType == LocalConst.CDN_TYPE_UPYUN) {
+                addon += "/fw/" + parseInt(width * ratio) + "/quality/75" + format;
+            } else if(cdnType == LocalConst.CDN_TYPE_ALIYUN_OSS) {
+                addon += "x-oss-process=image/resize,w_" + parseInt(width * ratio) + "/quality,Q_75" + format;
+            } else {
+                addon += "imageView2/2/w/" + parseInt(width * ratio) + "/q/75" + format;
+            }
+        } else {
+            if (cdnType == LocalConst.CDN_TYPE_UPYUN) {
+                addon += "/fh/" + parseInt(width * ratio) + "/quality/75" + format;
+            } else if(cdnType == LocalConst.CDN_TYPE_ALIYUN_OSS) {
+                addon += "x-oss-process=image/resize,h_" + parseInt(width * ratio) + "/quality,Q_75" + format;
+            } else {
+                addon += "imageView2/2/h/" + parseInt(height * ratio) + "/q/75" + format;
+            }
+        }
+        return addon;
+    };
+    var getBgHeight = function(windowHeight, bannerHeight, mobileBannerHeight){
+        windowHeight = windowHeight || 560;
+        if (windowHeight > window.screen.availHeight) {
+            windowHeight = window.screen.availHeight;
+        }
+        bannerHeight = bannerHeight.trim();
+        mobileBannerHeight = mobileBannerHeight.trim();
+        if (window.innerHeight > window.innerWidth) {
+            bannerHeight = parseFloat(mobileBannerHeight);
+        } else {
+            bannerHeight = parseFloat(bannerHeight);
+        }
+        bannerHeight = Math.round(windowHeight * bannerHeight / 100);
+        return bannerHeight;
+    };
+    var registLoadBanner = function () {
+        if (window.asyncBannerLoadNum >= 0) {
+            window.asyncBannerLoadNum ++;
+            Mlog("Loading Banner..." + window.asyncBannerLoadNum);
+        }
+    };
+    var remove = function (element) {
+        if (element) {
+            if (typeof element['remove'] === 'function') {
+                element.remove();
+            } else if (element.parentNode) {
+                element.parentNode.removeChild(element);
+            }
+        }
+    };
+    var loadBanner = function (img, backgroundImage, backgroundPosition, wrap, cdnType, width, height, blured) {
+        var background = wrap.querySelector('.blog-background');
+        var container = wrap.querySelector('.lazyload-container');
+
+        if (!background) {
+            console.warn("background is null", background);
+            return;
+        }
+        if (!container) {
+            console.warn("container is null", container);
+            return;
+        }
+
+        var imageSrc = backgroundImage + getImageAddon(cdnType, width, height);
+
+        background.classList.add("loading");
+
+        remove(img);
+        if (typeof(backgroundPosition) === 'string' && backgroundPosition.length > 0) {
+            container.style.backgroundPosition = backgroundPosition;
+            background.style.backgroundPosition = backgroundPosition;
+        }
+        container.style.backgroundImage = 'url(' + img.src + ')';
+        container.classList.add('loaded');
+
+        blured = blured || false;
+        if (blured) {
+            return;
+        }
+
+        // load Src background image
+        var largeImage = new Image();
+        largeImage.src = imageSrc;
+        largeImage.onload = function() {
+            remove(this);
+            background.style.backgroundImage = 'url(' + imageSrc + ')';
+            background.classList.remove('loading');
+            container.classList.remove('loaded');
+            setTimeout(function () {
+                remove(container);
+                if (window.asyncBannerLoadCompleteNum >= 0) {
+                    window.asyncBannerLoadCompleteNum ++;
+                    Mlog("Loaded Banner: " + window.asyncBannerLoadCompleteNum);
+                    if (window.asyncBannerLoadCompleteNum === window.asyncBannerLoadNum) {
+                        window.asyncBannerLoadNum = -1170;
+                        window.asyncBannerLoadCompleteNum = -1170;
+                        $('body').trigger("ajax-banner:done");
+                    }
+                }
+            }, 1001);
+        };
+    };
+    var loadPrefersDarkModeState = function () {
+        var indicator = document.createElement('div');
+        indicator.className = 'dark-mode-state-indicator';
+        document.body.appendChild(indicator);
+        if (parseInt(mGetComputedStyle(indicator, 'z-index'), 10) === 11) {
+            LocalConst.PREFERS_DARK_MODE = true;
+        }
+        remove(indicator);
+    };
+    var mGetComputedStyle = function (element, style) {
+        var value;
+        if (window.getComputedStyle) {
+            // modern browsers
+            value = window.getComputedStyle(element).getPropertyValue(style);
+        } else if (element.currentStyle) {
+            // ie8-
+            value = element.currentStyle[style];
+        }
+        return value;
+    };
+</script>
+<style type="text/css">
+    body, button, input, optgroup, select, textarea {
+        font-family: 'Mirages Custom', 'Merriweather', 'Open Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei',  'Segoe UI Emoji', 'Segoe UI Symbol', Helvetica, Arial, sans-serif;
+    }
+    .github-box, .github-box .github-box-title h3 {
+        font-family: 'Mirages Custom', 'Merriweather', 'Open Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei',  'Segoe UI Emoji', 'Segoe UI Symbol', Helvetica, Arial, sans-serif !important;
+    }
+    .aplayer {
+        font-family: 'Mirages Custom', 'Myriad Pro', 'Myriad Set Pro', 'Open Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei',  Helvetica, arial, sans-serif !important;
+    }
+    /* Serif */
+    body.content-lang-en.content-serif .post-content {
+        font-family: 'Lora', 'PT Serif', 'Source Serif Pro', Georgia, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 'WenQuanYi Micro Hei',  serif;
+    }
+    body.content-lang-en.content-serif.serif-fonts .post-content {
+        font-family: 'Lora', 'PT Serif', 'Source Serif Pro', 'Noto Serif CJK SC', 'Noto Serif CJK', 'Noto Serif SC', 'Source Han Serif SC', 'Source Han Serif', 'source-han-serif-sc', 'PT Serif', 'SongTi SC', 'MicroSoft Yahei',  serif;
+    }
+    body.serif-fonts .post-content, body.serif-fonts .blog-title {
+        font-family: 'Noto Serif CJK SC', 'Noto Serif CJK', 'Noto Serif SC', 'Source Han Serif SC', 'Source Han Serif', 'source-han-serif-sc', 'PT Serif', 'SongTi SC', 'MicroSoft Yahei',  Georgia, serif;
+    }
+    .dark-mode-state-indicator {
+        position: absolute;
+        top: -999em;
+        left: -999em;
+
+        z-index: 1;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .dark-mode-state-indicator {
+            z-index: 11;
+        }
+    }
+</style>
+<style type="text/css">
+    /** 页面样式调整 */
+    
+    </style>
+
+<script>
+    var _czc = _czc || [];
+    var _hmt = _hmt || [];
+</script>
+		
+</head>
+<body class="theme-white color-default card  desktop windows chrome not-safari use-sidebar">
+    <script>
+        loadPrefersDarkModeState();
+        if (LocalConst.USE_MIRAGES_DARK || (LocalConst.AUTO_NIGHT_SHIFT && LocalConst.PREFERS_DARK_MODE)) {
+            var body = document.querySelector("body");
+            body.classList.remove('theme-white');
+            body.classList.add('theme-dark');
+        }
+    </script>
+<!--[if lt IE 9]>
+<div class="browse-happy" role="dialog">当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/">升级你的浏览器</a>.</div>
+<![endif]-->
+<div class="sp-progress"></div>
+<div id="wrap">
+    <span id="backtop" class="waves-effect waves-button"><i class="fa fa-angle-up"></i></span>
+      <header>
+    <a id="toggle-nav" class="btn btn-primary" href="javascript:void(0);"><span>MENU</span></a>
+<nav id="site-navigation" class="sidebar no-user-select" role="navigation">
+    <div id="nav">
+        <div class="author navbar-header">
+            <a href="https://pcysanji.github.io">
+                <img src="https://pcysanji.github.io/images/avatar.png?v=1589030553951" alt="Avatar" width="100" height="100"/>
+            </a>
+        </div>
+       
+		
+		
+        <ul id="menu-menu-1" class="menu navbar-nav">
+			
+			
+			
+			
+                        <li class="menu-item"><a href="/">首页</a></li>
+            
+			
+                        <li class="menu-item"><a href="/archives">归档</a></li>
+            
+			
+                        <li class="menu-item"><a href="/tags">标签</a></li>
+            
+			
+                        <li class="menu-item"><a href="/post/about">关于</a></li>
+            
+			
+                        <li class="menu-item"><a href="https://jq.qq.com/?_wv=1027&amp;k=59q0ZDT">有本事你来呀</a></li>
+            
+			
+                        <li class="menu-item"><a href="https://kkren.me/">kkren&#39;s blog</a></li>
+            
+			
+                        <li class="menu-item"><a href="https://nav.uziyi.cn">柚子一导航</a></li>
+            
+			
+                        <li class="menu-item"><a href="http://tv.uziyi.cn">柚影视 | 全网VIP解析</a></li>
+            
+                                  
+                    </ul>
+		
+		
+		
+		
+		
+		
+    </div>
+                <div id="nav-toolbar">
+            <div class="side-toolbar">
+                <ul class="side-toolbar-list">
+                                            <li><a id="side-toolbar-rss" href="https://blog.fyun.org/feed" title="RSS"><i class="fa fa-feed"></i></a></li>
+											
+                                             
+                                                  
+                                             
+                                                  
+                                             
+                                                  
+                                             
+                                                  
+                                             
+                                                  
+											
+											<li><a id="side-toolbar-read-settings" href="javascript:void(0);" title="阅读设置"><i class="fa fa-font"></i></a></li>
+                                    </ul>
+                <div class="read-settings-container animated">
+                    <div class="read-settings animated">
+                        <div class="font-size-controls animated">
+                            <button type="button" class="font-size-control control-btn-smaller waves-effect waves-button" data-mode="smaller">A</button>
+                            <button type="button" class="font-size-display" disabled>100%</button>
+                            <button type="button" class="font-size-control control-btn-larger waves-effect waves-button" data-mode="larger">A</button>
+                        </div>
+                        <div class="background-color-controls animated">
+                            <ul>
+                                <li><a href="javascript:void(0)" title="自动模式" class="background-color-control auto selected" data-mode="auto"><i class="fa fa-adjust"></i></a></li>
+                                <li><a href="javascript:void(0)" title="日间模式" class="background-color-control white " data-mode="white"><i class="fa fa-check-circle"></i></a></li>
+                                <li><a href="javascript:void(0)" title="日落模式" class="background-color-control sunset " data-mode="sunset"><i class="fa fa-check-circle"></i></a></li>
+                                <li><a href="javascript:void(0)" title="夜间模式" class="background-color-control dark " data-mode="dark"><i class="fa fa-check-circle"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="font-family-controls">
+                            <button type="button" class="font-family-control  control-btn-serif" data-mode="serif">Serif</button>
+                            <button type="button" class="font-family-control selected control-btn-sans-serif" data-mode="sans-serif">Sans Serif</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>    </header>
+    
+    <div id="body">
+        <style type="text/css">
+    /** 页面样式调整 */
+                div#comments{
+        margin-top: 0;
+    }
+                        #footer{
+        padding: 1.25rem 0;
+    }
+        
+                .inner {
+        background-color: rgba(0,0,0,0.25);
+    }
+        #masthead {
+        min-height: 12.5rem;
+    }
+                </style>
+<style type="text/css">
+    </style>        <script type="text/javascript">
+            var wrap = document.querySelector('#wrap');
+            wrap.classList.remove('display-menu-tree');
+            var body = document.querySelector('body');
+            body.classList.remove('display-menu-tree');
+            LocalConst.TOC_AT_LEFT = false;
+            
+                        if (body.classList.contains('no-banner')) {
+                body.classList.remove('no-banner');
+            }                        if (body.classList.contains('content-lang-en')) {
+                body.classList.remove('content-lang-en');
+            }                        if (body.classList.contains('content-serif')) {
+                body.classList.remove('content-serif');
+            }            LocalConst.SHOW_TOC = false;
+                    </script>
+                                <header id="masthead" class="align-center align-middle " style="
+            height:
+        65;">
+            <div class="blog-background"></div>
+                        <div class="lazyload-container"></div>
+            <script type="text/javascript">
+            var blurBanner = false;                if (!blurBanner) registLoadBanner();
+            </script>
+									
+            <img id="lazyload-img" alt="page banner image" src="https://i.loli.net/2019/09/11/TRuVLtwxzC78Im5.jpg?imageView2/2/w/64/q/75" style="display: none" onload="javascript:loadBanner(this, 'https://i.loli.net/2019/09/11/TRuVLtwxzC78Im5.jpg', '', document.querySelector('#masthead'), '1', window.screen.availWidth, window.screen.availHeight, blurBanner)">
+									
+                        <script type="text/javascript">
+                var head = document.querySelector("#masthead");
+                var bgHeight = getBgHeight(window.innerHeight, '65', '40');
+                head.style.height = bgHeight + "px";
+                            </script>
+									
+									
+									
+									
+									
+                        <div class="inner">
+                <div class="container">
+                    <h1 class="blog-title" style="">
+                        代开ji场，畅游网络                    </h1>
+                    <h2 class="blog-description font-mono" style="">
+						
+                        2019-09-11 • 阅读: <span id="busuanzi_value_page_pv"></span> • 
+							
+							<a href="https://pcysanji.github.io/tag/KSK33Mnx4/">机场</a>
+								 
+							<a href="https://pcysanji.github.io/tag/DQNfnRP__o/">科学上网</a>
+								 									  
+																	  
+																	  • <a href="javascript:void(0)" id="page-read-setting-toggle">阅读设置</a>                    </h2>
+                </div>
+
+            </div>
+                    </header>
+                    <div class="container">
+            <div class="row">
+
+
+
+<div id="post" role="main">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="display-none" itemscope itemprop="author" itemtype="http://schema.org/Person">
+            
+        </div>
+        <div class="display-none" itemscope itemprop="publisher" itemtype="http://schema.org/Organization">
+            
+            
+                <meta itemprop="url" content="https://secure.gravatar.com/avatar/e9ebe6ce987b5a6eded073a87771a1bb?s=50&amp;r=PG&amp;d=">
+            </div>
+        </div>
+        
+                <div class="post-content" itemprop="articleBody">
+                        <p><h2 id="我为什么要做这事情">我为什么要做这事情</h2>
+<p>我知道很多人有这个需求，国内现在很难在百度上搜索到信息，为了我自身的安全，我也不便于公开分享和交流这些东西。国家管的严，在QQ群交流容易封QQ群，要是被查到我也会被请喝茶的。</p>
+<p>目前来说，搭建机场的难度并不高。只是百度很难查到这些信息，但是如果要谷歌的话，就必须先科学上网，可谓矛盾。其实如果自己能研究的话，自己也能开啦。<br>
+但是有些人不想研究，有些人研究了也不会，于是我就决定要这样一项业务。我代为搭建SSR(酸酸乳)，v2ray就好了呀！</p>
+<p>现在机场其实有很多，买的服务器多条线路，给很多人用。有些体验很好，有些比较便宜。</p>
+<h2 id="别人的机场有什么缺点">别人的机场有什么缺点</h2>
+<p>缺点显而易见</p>
+<ol>
+<li>入门小白很难找到比较优秀的机场。我看到很多人，花1000一年买的机场，下载油管的速度只有500KB，恕我直言，我免费的都比你快啊。</li>
+<li>找到了比较好的机场，可能价格会比较贵。我这边看到的一些机场的价格大概是这样的。有20元一个月的，200G流量……</li>
+<li>某些时间段用的人多了，速度就慢。</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2019/09/11/5i4GcaApdMLgnrj.png" alt="" loading="lazy"></figure>
+<p>好吧，我在看各种机场的价格时候，发现一半跑路了，一半注册需要邀请码了。所以也没有找到很好的信息比较。</p>
+<p>不是没有好的机场，有，但是贵。新机场比较好，用的人少，也便宜。</p>
+<h2 id="别人的机场没有优点吗">别人的机场没有优点吗？</h2>
+<p>有的，这还得看你有没有遇到什么好机场。有些事情是互相矛盾的，比如又要便宜，又要速度快；又要速度快，又要流量多。<br>
+优点在于，机场节点多，可以根据需求切换；机场套餐多，可以根据自己实际需求来购买套餐，可以满足日常所需即可达到省钱的目的。</p>
+<h2 id="我具体要做什么">我具体要做什么？</h2>
+<p>基本上自己搭建一个机场，比较便宜的价格是在40-50左右，一月1000G流量。40块钱，能够购买到很好的套餐了。所以机场搭建了自己一个人用是相对来说不划算的。不过你有其他用处，比如搭建博客，网站等等，50块钱至少的。</p>
+<p>那这次我是看到有一家主机商提供了最便宜 13 元一个月的VPS，而且是无限流量啊！<br>
+<img src="https://i.loli.net/2019/09/11/uqNBQgtfbYewnjF.jpg" alt="" loading="lazy"></p>
+<p>为什么能那么便宜？因为性能比较差咯。但是自用机场应该够用，能够满足部分用户的需求。</p>
+<p><strong><code>俄罗斯节点，无限流量，你一个人用。</code></strong></p>
+<p><img src="https://i.loli.net/2019/09/11/kn8fUoOjxIwlLbu.png" alt="油管看4K速度" loading="lazy"><br>
+油管看4K速度，平均也有8000左右</p>
+<p><img src="https://i.loli.net/2019/09/11/2dUCEOQ6pSuGDjH.png" alt="IDM下载速度" loading="lazy"><br>
+IDM下载速度，也到了我这边的带宽峰值2M左右</p>
+<p>那些付费机场，坑小白的，才几百KB的下载速度，也是坑死人。</p>
+<p>我这边只负责搭建和维护，你只要赚钱给我购买或者续费就好了。一个人用，速度和延迟都是自己的，不会因为跟别人公用受到影响。</p>
+<p>以下是我测试的延迟，我这边是141ms，不同地区不一样，但不会高的太离谱。141ms 这个表现比很多亚洲地区的节点都要好。<br>
+<img src="https://i.loli.net/2019/09/11/HcjlaguZFtqC97k.png" alt="" loading="lazy"></p>
+<p>当然你有钱的话，我还可以代开vultr的4.5美元的套餐，32左右的价格。</p>
+<h2 id="这项业务适合哪些人">这项业务适合哪些人</h2>
+<ol>
+<li>你比较懒惰不会自己搭建节点</li>
+<li>你想要一个便宜的机场</li>
+<li>你上传下载需求比较大，对流量需求多，但对速度要求比较低。</li>
+</ol>
+<p>有问题再问我啦~</p>
+<p>有人怀疑无限流量是假的。人家主机商这么卖我也没办法呀，来看看这配置你就知道为什么那么低价了。<br>
+<img src="https://i.loli.net/2019/09/11/jXKlzuZ9HOE1G5k.jpg" alt="" loading="lazy"><br>
+<img src="https://i.loli.net/2019/09/11/HMWsCDfi5QEkxzy.jpg" alt="" loading="lazy"></p>
+<p>只有512M的内存，存储是HDD 5GB，现在HDD的主机都很少，都是SSD高速主机了。带宽是200M，Vultr主机的带宽是1G。 这个配置，做博客可能都很卡的，只能说拿来做VPN，刚刚好</p>
+  </p>                    </div>
+        <div class="tags">
+			<div itemprop="keywords" class="keywords atudds">
+				
+				<a href="https://pcysanji.github.io/tag/KSK33Mnx4/">机场</a> 
+				 
+				<a href="https://pcysanji.github.io/tag/DQNfnRP__o/">科学上网</a> 
+				 												
+																
+																</div>
+                    </div>
+                <div class="post-buttons">
+            <a id="toggle-archives" class="btn btn-grey" href="https://pcysanji.github.io/archives/">返回文章列表</a>
+                       <a id="toggle-post-qr-code" class="btn btn-grey">文章二维码</a>
+                                    <a id="toggle-reward-qr-code" class="btn btn-grey">打赏</a>
+                    </div>
+            </article>
+</div>
+</div>
+</div>
+<div id="qr-box">
+    <div class="post-qr-code-box">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://pcysanji.github.io/post/jichang/" width="250" height="250" alt="本页链接的二维码"/>
+    </div>
+    <div class="reward-qr-code-box">
+			
+    </div>
+</div>
+<div id="body-bottom">
+<div class="container">
+            <div class="post-near">
+            <nav>
+				 
+            </nav>
+        </div>
+            
+    <div id="comments">
+                      
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'ec278646ccd8ef7df8b0',
+    clientSecret: '7c6cce7281c58c6e277e49f66dd5a39bcc54f691',
+    repo: 'pcysanji.github.io',
+    owner: 'pcysanji',
+    admin: ['pcysanji'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+          
+        
+                    </div>
+
+
+
+    </div>
+</div>
+</div><!-- end #body -->
+</div><!-- end #wrap -->
+<footer id="footer" role="contentinfo">
+    <div class="container">
+        <p>没什么本事却还想变的优秀</p>    </div>
+</footer>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+    <script src="https://pcysanji.github.io/media/scripts/jquery.min.js" type="text/javascript"></script>
+<script src="https://pcysanji.github.io/media/scripts/mirages.main.min.js" type="text/javascript"></script>
+
+<!-- APlayer Start -->
+<script type="text/javascript" src="https://pcysanji.github.io/media/scripts/APlayer.min.js"></script>
+<script>
+var len = APlayerOptions.length;
+for(var i=0;i<len;i++){
+    APlayers[i] = new APlayer({
+        element: document.getElementById('player' + APlayerOptions[i]['id']),
+        narrow: false,
+        preload: APlayerOptions[i]['preload'],
+        mutex: APlayerOptions[i]['mutex'],
+        autoplay: APlayerOptions[i]['autoplay'],
+        showlrc: APlayerOptions[i]['showlrc'],
+        music: APlayerOptions[i]['music'],
+        theme: APlayerOptions[i]['theme']
+        });
+    APlayers[i].init();
+}
+</script>
+<!-- APlayer End -->
+
+<script type="text/javascript">Page.highlightCodeBlock();</script>
+
+
+<script type="text/javascript">pangu.spacingElementByClassName('container');</script>
+<script type="text/javascript">Waves.init();</script>
+
+<script type="text/javascript">
+    (function ($) {
+                if (typeof registCommentEvent === 'function') {
+            registCommentEvent();
+        }
+                        Page.setupLazyLoadImage();
+                        Page.setupCDNImageOptimize();
+                Page.loadDisqus();
+        Page.setupContents();
+        Page.bindQRCodeBlockEvents();
+            })(jQuery);
+    </script>
+<!--textClick Begin-->
+
+<!--textClick END-->
+
+
+</body>
+</html>
